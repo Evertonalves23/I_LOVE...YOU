@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: url("https://rollingstone.com.br/wp-content/uploads/legacy/2015/img-1031584-dragon-ball.jpg") no-repeat center center/cover;
+    height: 100vh;
+}
+
+.overlay {
+    background: rgba(0,0,0,0.7);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 340px;
+    padding: 30px;
+    border-radius: 20px;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    text-align: center;
+    color: white;
+    box-shadow: 0 0 20px orange;
+}
+
+h1 {
+    color: orange;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(45deg, orange, red);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px orange;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+.sair {
+    background: linear-gradient(45deg,#222,#000);
+}
+
+a {
+    color: #ddd;
+}
